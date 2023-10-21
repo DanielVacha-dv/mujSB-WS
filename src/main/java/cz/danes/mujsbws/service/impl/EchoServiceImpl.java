@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.springframework.ws.samples.echo.service.impl;
+package cz.danes.mujsbws.service.impl;
 
+import cz.danes.mujsbws.service.EchoService;
 import org.springframework.stereotype.Service;
-import org.springframework.ws.samples.echo.service.EchoService;
 
 /**
  * Default implementation of <code>EchoService</code>.

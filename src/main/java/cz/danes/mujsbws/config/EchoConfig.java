@@ -14,9 +14,7 @@
  * limitations under the License.
  */
 
-package org.springframework.ws.samples.echo.config;
-
-import java.util.List;
+package cz.danes.mujsbws.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,6 +25,8 @@ import org.springframework.ws.server.endpoint.interceptor.PayloadLoggingIntercep
 import org.springframework.ws.soap.server.endpoint.interceptor.PayloadValidatingInterceptor;
 import org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition;
 import org.springframework.xml.xsd.SimpleXsdSchema;
+
+import java.util.List;
 
 /**
  * Configuration class for the Echo sample.

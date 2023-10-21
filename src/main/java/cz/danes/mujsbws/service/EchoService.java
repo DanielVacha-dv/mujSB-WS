@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.springframework.ws.samples.echo.service;
+package cz.danes.mujsbws.service;
 
 /**
  * Defines the "business logic" of the web service.
